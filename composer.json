@@ -1,0 +1,13 @@
+{
+    "name": "emagister/php-jenkins-bootstrap-dashboard",
+    "description": "A jenkins dashboard written in PHP",
+    "authors": [
+        {
+            "name": "Carlos Buenosvinos",
+            "email": "cbuenosvinos@emagister.com"
+        }
+    ],
+    "require": {
+
+    }
+}
