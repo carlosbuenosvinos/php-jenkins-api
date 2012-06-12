@@ -40,6 +40,8 @@
         // $dashboard = new Dashboard('http://ci.jenkins-ci.org/view/All/api/json/?depth=3');
         $jobs = $dashboard->getJobs();
 
+        usort($jobs, "Emagister\Jenkins\Job::sort");
+
         $cols = 3;
         $n = count($jobs);
 
