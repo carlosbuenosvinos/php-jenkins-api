@@ -54,10 +54,10 @@
                 foreach($sector as $job) {
                     $lastBuild = $job->getLastBuild();
                     ?>
-                    <div class="alert alert-<?php echo $job->getBootstrapStatus() ?>">
+                    <div style="padding: 8px 14px 8px 14px" class="alert alert-<?php echo $job->getBootstrapStatus() ?>">
 
                         <?php if ($job->isInProgress()) { ?>
-                        <div class="progress progress-<?php echo $job->getBootstrapProgressBarStatus() ?> progress-striped active">
+                        <div style="margin-bottom: 5px;" class="progress progress-<?php echo $job->getBootstrapProgressBarStatus() ?> progress-striped active">
                             <div class="bar" style="width: 100%;"></div>
                         </div>
                         <?php } ?>
@@ -79,13 +79,13 @@
                             <?php } ?>
                         <?php } ?>
 
-                        <p>
-                            <?php if (null !== $lastBuild) { ?>
+                        <?php if (null !== $lastBuild) { ?>
+                            <p style="margin: 5px 0 0">
                             <?php foreach ($lastBuild->getAuthors() as $author) { ?>
                                 <img src="<?php echo $author->getGravatar() ?>" title="<?php echo $author->getName() ?>" alt="<?php echo $author->getName() ?>" width="48" height="48" />
-                                <?php } ?>
                             <?php } ?>
-                        </p>
+                            </p>
+                        <?php } ?>
                     </div>
                     <?php
                 }
