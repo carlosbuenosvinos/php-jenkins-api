@@ -37,6 +37,7 @@
         use Emagister\Jenkins\Dashboard;
 
         $dashboard = new Dashboard('http://jenkins.php-devel.corp.emagister.com/jenkins/view/All/api/json/?depth=3');
+        // $dashboard = new Dashboard('http://ci.jenkins-ci.org/view/All/api/json/?depth=3');
         $jobs = $dashboard->getJobs();
 
         $cols = 3;
@@ -54,7 +55,7 @@
                 foreach($sector as $job) {
                     $lastBuild = $job->getLastBuild();
                     ?>
-                    <div style="padding: 8px 14px 8px 14px" class="alert alert-<?php echo $job->getBootstrapStatus() ?>">
+                    <div style="padding: 8px 8px 8px 8px" class="alert alert-<?php echo $job->getBootstrapStatus() ?>">
 
                         <?php if ($job->isInProgress()) { ?>
                         <div style="margin-bottom: 5px;" class="progress progress-<?php echo $job->getBootstrapProgressBarStatus() ?> progress-striped active">
@@ -79,7 +80,7 @@
                             <?php } ?>
                         <?php } ?>
 
-                        <?php if (null !== $lastBuild) { ?>
+                        <?php if (null !== $lastBuild && count($lastBuild->getAuthors()) > 0) { ?>
                             <p style="margin: 5px 0 0">
                             <?php foreach ($lastBuild->getAuthors() as $author) { ?>
                                 <img src="<?php echo $author->getGravatar() ?>" title="<?php echo $author->getName() ?>" alt="<?php echo $author->getName() ?>" width="48" height="48" />
@@ -100,6 +101,7 @@
 <!-- Le javascript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
+<!--
 <script src="bootstrap/js/jquery.js"></script>
 <script src="bootstrap/js/bootstrap-transition.js"></script>
 <script src="bootstrap/js/bootstrap-alert.js"></script>
@@ -113,6 +115,6 @@
 <script src="bootstrap/js/bootstrap-collapse.js"></script>
 <script src="bootstrap/js/bootstrap-carousel.js"></script>
 <script src="bootstrap/js/bootstrap-typeahead.js"></script>
-
+-->
 </body>
 </html>
