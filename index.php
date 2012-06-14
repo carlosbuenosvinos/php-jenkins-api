@@ -35,9 +35,12 @@
     <?php
         require 'Emagister/Jenkins/Dashboard.php';
         use Emagister\Jenkins\Dashboard;
+        use Emagister\Jenkins\Source;
 
-        $dashboard = new Dashboard('http://jenkins.php-devel.corp.emagister.com/jenkins/view/All/api/json/?depth=3');
-        // $dashboard = new Dashboard('http://ci.jenkins-ci.org/view/All/api/json/?depth=3');
+        $dashboard = new Dashboard();
+        $dashboard->addSource(new Source('http://jenkins.php-devel.corp.emagister.com/jenkins/view/All/api/json/?depth=3'));
+        $dashboard->addSource(new Source('http://172.20.1.12:8080/jenkins/view/All/api/json/?depth=3'));
+
         $jobs = $dashboard->getJobs();
 
         usort($jobs, "Emagister\Jenkins\Job::sort");

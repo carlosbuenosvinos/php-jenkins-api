@@ -1,26 +1,29 @@
 <?php
 namespace Emagister\Jenkins;
 
-require_once 'Emagister/Jenkins/Job.php';
+require_once 'Emagister/Jenkins/Source.php';
 
-use Emagister\Jenkins\Job;
+use Emagister\Jenkins\Source;
 
 class Dashboard
 {
-    private $_json;
+    private $_sources;
 
-    public function __construct($url)
+    public function __construct()
     {
-        $json = file_get_contents($url);
-        $this->_json = json_decode($json);
+        $this->_sources = array();
+    }
+
+    public function addSource(Source $source)
+    {
+        $this->_sources[] = $source;
     }
 
     public function getJobs()
     {
-        $array = $this->_json->jobs;
         $jobs = array();
-        foreach($array as $row) {
-            $jobs[] = new Job($row);
+        foreach ($this->_sources as $source) {
+            $jobs = $jobs + $source->getJobs();
         }
 
         return $jobs;
