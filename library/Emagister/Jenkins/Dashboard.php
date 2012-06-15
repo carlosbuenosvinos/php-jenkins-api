@@ -1,10 +1,6 @@
 <?php
 namespace Emagister\Jenkins;
 
-require_once __DIR__ . '/Source.php';
-
-use Emagister\Jenkins\Source;
-
 class Dashboard
 {
     private $_sources;

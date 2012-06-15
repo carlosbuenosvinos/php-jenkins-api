@@ -1,9 +1,6 @@
 <?php
 namespace Emagister\Jenkins;
 
-require_once __DIR__ . '/Object.php';
-require_once __DIR__ . '/Build.php';
-
 use Emagister\Jenkins\Object;
 use Emagister\Jenkins\Build;
 
@@ -123,6 +120,11 @@ class Job extends Object
         return $this->_getBuild('lastUnsuccessfulBuild');
     }
 
+    public function getBuilds()
+    {
+        return $this->_getItems('builds', 'Build');
+    }
+
     public function getProperties()
     {
         $properties = array();
@@ -139,10 +141,6 @@ class Job extends Object
 
     private function _getBuild($property)
     {
-        if (isset($this->_json->{$property})) {
-            return new Build($this->_json->{$property});
-        }
-
-        return null;
+        return $this->_getItem($property, 'Build');
     }
 }

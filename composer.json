@@ -1,13 +1,23 @@
 {
-    "name": "emagister/php-jenkins-bootstrap-dashboard",
-    "description": "A jenkins dashboard written in PHP",
+    "name": "emagister/jenkins",
+    "type": "library",
+    "description": "Jenkins API",
+    "keywords": ["jenkins", "api"],
+    "homepage": "https://github.com/Emagister/php-jenkins-api",
+    "license": "MIT",
     "authors": [
         {
             "name": "Carlos Buenosvinos",
-            "email": "cbuenosvinos@emagister.com"
+            "email": "cbuenosvinos@emagister.com",
+            "homepage": "http://engineering.emagister.com"
         }
     ],
     "require": {
-
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Emagister": "library"
+        }
     }
 }

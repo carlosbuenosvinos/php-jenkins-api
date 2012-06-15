@@ -1,9 +1,6 @@
 <?php
 namespace Emagister\Jenkins;
 
-require_once __DIR__ . '/Object.php';
-require_once __DIR__ . '/ChangeSet.php';
-
 use Emagister\Jenkins\Object;
 use Emagister\Jenkins\ChangeSet;
 

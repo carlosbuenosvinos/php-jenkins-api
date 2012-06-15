@@ -5,6 +5,7 @@
     <title>Emagister PHP Team Job Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Carlos Buenosvinos (carlos@emagister.com)">
+    <meta http-equiv="refresh" content="10">
 
     <!-- Le styles -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -33,17 +34,16 @@
 <div class="container-fluid">
     <div class="row-fluid">
     <?php
-        require 'Emagister/Jenkins/Dashboard.php';
+        require '../library/Emagister/Jenkins/_autoload.php';
         use Emagister\Jenkins\Dashboard;
         use Emagister\Jenkins\Source;
+        use Emagister\Jenkins\Job;
 
         $dashboard = new Dashboard();
         $dashboard->addSource(new Source('http://jenkins.php-devel.corp.emagister.com/jenkins/view/All/api/json/?depth=2'));
         // $dashboard->addSource(new Source('http://ci.emagister.es:8080/jenkins/view/All/api/json/?depth=3'));
-
         $jobs = $dashboard->getJobs();
-
-        usort($jobs, "Emagister\Jenkins\Job::sort");
+        usort($jobs, "Emagister\\Jenkins\\Job::sort");
 
         $cols = 3;
         $n = count($jobs);

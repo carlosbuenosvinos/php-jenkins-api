@@ -1,7 +1,6 @@
 <?php
-namespace Emagister\Jenkins;
+namespace Emagister\Jenkins\Exception;
 
-require_once __DIR__ . '/Exception.php';
 use Emagister\Jenkins\Exception;
 
 class SourceNotAvailableException extends Exception

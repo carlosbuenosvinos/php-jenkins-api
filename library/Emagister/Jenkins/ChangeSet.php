@@ -1,10 +1,6 @@
 <?php
 namespace Emagister\Jenkins;
 
-require_once __DIR__ . '/Object.php';
-require_once __DIR__ . '/Change.php';
-require_once __DIR__ . '/Revision.php';
-
 use Emagister\Jenkins\Object;
 use Emagister\Jenkins\Change;
 use Emagister\Jenkins\Revision;
