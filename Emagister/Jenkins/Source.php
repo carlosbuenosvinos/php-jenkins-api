@@ -1,17 +1,26 @@
 <?php
 namespace Emagister\Jenkins;
 
-require_once 'Emagister/Jenkins/Job.php';
+require_once __DIR__ . '/Job.php';
+require_once __DIR__ . '/Exception/SourceNotAvailableException.php';
 
 use Emagister\Jenkins\Job;
+use Emagister\Jenkins\Exception\SourceNotAvailableException;
 
 class Source
 {
+    private $_url;
     private $_json;
 
     public function __construct($url)
     {
-        $json = file_get_contents($url);
+        $this->_url = $url;
+
+        $json = @file_get_contents($url);
+        if (!$json) {
+            throw new SourceNotAvailableException();
+        }
+
         $this->_json = json_decode($json);
     }
 

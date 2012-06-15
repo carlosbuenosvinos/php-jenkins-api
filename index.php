@@ -38,8 +38,8 @@
         use Emagister\Jenkins\Source;
 
         $dashboard = new Dashboard();
-        $dashboard->addSource(new Source('http://jenkins.php-devel.corp.emagister.com/jenkins/view/All/api/json/?depth=3'));
-        $dashboard->addSource(new Source('http://172.20.1.12:8080/jenkins/view/All/api/json/?depth=3'));
+        $dashboard->addSource(new Source('http://jenkins.php-devel.corp.emagister.com/jenkins/view/All/api/json/?depth=2'));
+        // $dashboard->addSource(new Source('http://ci.emagister.es:8080/jenkins/view/All/api/json/?depth=3'));
 
         $jobs = $dashboard->getJobs();
 

@@ -1,7 +1,7 @@
 <?php
 namespace Emagister\Jenkins;
 
-require_once 'Emagister/Jenkins/Source.php';
+require_once __DIR__ . '/Source.php';
 
 use Emagister\Jenkins\Source;
 

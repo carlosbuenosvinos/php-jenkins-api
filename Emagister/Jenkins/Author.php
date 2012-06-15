@@ -1,7 +1,7 @@
 <?php
 namespace Emagister\Jenkins;
 
-require_once 'Emagister/Jenkins/Object.php';
+require_once __DIR__ . '/Object.php';
 
 use Emagister\Jenkins\Object;
 
