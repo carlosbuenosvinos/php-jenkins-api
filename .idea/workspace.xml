@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f110c4b-add4-4e64-92bb-01ea9e20e42a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Object.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/_autoload.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Emagister/Jenkins/Object.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Emagister/Jenkins/Author.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Author.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Emagister/Jenkins/Build.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Build.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Emagister/Jenkins/Change.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Change.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Emagister/Jenkins/ChangeSet.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/ChangeSet.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Emagister/Jenkins/Dashboard.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Dashboard.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Emagister/Jenkins/Exception/Exception.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Exception.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Emagister/Jenkins/Exception/SourceNotAvailableException.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Exception/SourceNotAvailableException.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Emagister/Jenkins/Job.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Job.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Emagister/Jenkins/Property.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Property.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Emagister/Jenkins/Revision.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Revision.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Emagister/Jenkins/Source.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Source.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/examples/bootstrap/css/bootstrap-responsive.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/examples/bootstrap/css/bootstrap-responsive.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/examples/bootstrap/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/examples/bootstrap/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/img/glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/examples/bootstrap/img/glyphicons-halflings-white.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/img/glyphicons-halflings.png" afterPath="$PROJECT_DIR$/examples/bootstrap/img/glyphicons-halflings.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/examples/bootstrap/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/examples/bootstrap/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/examples/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
     </list>
     <ignored path="jenkins-dashboard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,28 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Dashboard.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Dashboard.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="5" selection-start="158" selection-end="158" vertical-scroll-proportion="-6.4">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Change.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Change.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="-1.92">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Author.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Author.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="-2.56">
+            <state line="4" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -79,16 +38,34 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="62" selection-start="402" selection-end="402" vertical-scroll-proportion="17.6125">
+            <state line="10" column="62" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="47" selection-start="175" selection-end="175" vertical-scroll-proportion="0.13245033">
+            <state line="21" column="5" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LICENSE" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="45" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.397351">
               <folding />
             </state>
           </provider>
@@ -97,7 +74,7 @@
       <file leaf-file-name="Object.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Object.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="20" selection-start="416" selection-end="416" vertical-scroll-proportion="-12.16">
+            <state line="19" column="20" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,7 +83,7 @@
       <file leaf-file-name="_autoload.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/_autoload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="1034" selection-end="1034" vertical-scroll-proportion="-8.96">
+            <state line="14" column="0" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,7 +92,7 @@
       <file leaf-file-name="Source.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Source.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="-3.2">
+            <state line="5" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -124,7 +101,7 @@
       <file leaf-file-name="Job.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Job.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="-1.92">
+            <state line="3" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,7 +110,7 @@
       <file leaf-file-name="SourceNotAvailableException.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Exception/SourceNotAvailableException.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="1" selection-start="133" selection-end="133" vertical-scroll-proportion="-3.84">
+            <state line="6" column="1" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,8 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Emagister/Jenkins/Source.php" />
-        <option value="$PROJECT_DIR$/Emagister/Jenkins/Job.php" />
         <option value="$PROJECT_DIR$/Emagister/Jenkins/Object.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/library/Emagister/Jenkins/Source.php" />
@@ -168,6 +143,8 @@
         <option value="$PROJECT_DIR$/library/Emagister/Jenkins/Object.php" />
         <option value="$PROJECT_DIR$/library/Emagister/Jenkins/Author.php" />
         <option value="$PROJECT_DIR$/examples/index.php" />
+        <option value="$PROJECT_DIR$/LICENSE" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -301,8 +278,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -366,7 +343,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19448946" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19773096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -436,20 +413,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="5" selection-start="26" selection-end="26" vertical-scroll-proportion="0.052980132">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Revision.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="-1.28">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Property.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="364" selection-end="364" vertical-scroll-proportion="-15.36">
@@ -478,72 +441,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Source.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="-3.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Exception/SourceNotAvailableException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="133" selection-end="133" vertical-scroll-proportion="-3.84">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="158" selection-end="158" vertical-scroll-proportion="-6.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/_autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="1034" selection-end="1034" vertical-scroll-proportion="-8.96">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Object.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="20" selection-start="416" selection-end="416" vertical-scroll-proportion="-12.16">
+        <state line="10" column="5" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Change.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="-1.92">
+        <state line="3" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Author.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="-2.56">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Job.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="-1.92">
+        <state line="4" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="62" selection-start="402" selection-end="402" vertical-scroll-proportion="17.6125">
+        <state line="10" column="62" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Object.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="20" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/_autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Source.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Job.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Exception/SourceNotAvailableException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="1" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="47" selection-start="175" selection-end="175" vertical-scroll-proportion="0.13245033">
+        <state line="21" column="5" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="45" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.397351">
           <folding />
         </state>
       </provider>
