@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f110c4b-add4-4e64-92bb-01ea9e20e42a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="jenkins-dashboard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="Author.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Author.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
+            <state line="4" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="-0.64">
               <folding />
             </state>
           </provider>
@@ -53,19 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LICENSE" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="45" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.397351">
+            <state line="27" column="10" selection-start="695" selection-end="695" vertical-scroll-proportion="0.33774835">
               <folding />
             </state>
           </provider>
@@ -457,7 +447,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/library/Emagister/Jenkins/Author.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
+        <state line="4" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="-0.64">
           <folding />
         </state>
       </provider>
@@ -504,13 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="45" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
@@ -518,9 +501,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="5" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.397351">
+        <state line="27" column="10" selection-start="695" selection-end="695" vertical-scroll-proportion="0.33774835">
           <folding />
         </state>
       </provider>
