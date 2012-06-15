@@ -14,6 +14,21 @@ class Job extends Object
         return $this->_json->name;
     }
 
+    public function getDescription()
+    {
+        return $this->_json->description;
+    }
+
+    public function getUrl()
+    {
+        return $this->_json->url;
+    }
+
+    public function isBuildable()
+    {
+        return $this->_json->buildable == 'true';
+    }
+
     public function getColor()
     {
         return $this->_json->color;
@@ -95,8 +110,37 @@ class Job extends Object
 
     public function getLastBuild()
     {
-        if (isset($this->_json->lastBuild)) {
-            return new Build($this->_json->lastBuild);
+        return $this->_getBuild('lastBuild');
+    }
+
+    public function getLastUnstableBuild()
+    {
+        return $this->_getBuild('lastUnstableBuild');
+    }
+
+    public function getLastUnsuccessfulBuild()
+    {
+        return $this->_getBuild('lastUnsuccessfulBuild');
+    }
+
+    public function getProperties()
+    {
+        $properties = array();
+        if (!isset($this->_json->property)) {
+            return $properties;
+        }
+
+        foreach ($this->_json->property as $name => $value) {
+            $properties[] = new Property($name, $value);
+        }
+
+        return $properties;
+    }
+
+    private function _getBuild($property)
+    {
+        if (isset($this->_json->{$property})) {
+            return new Build($this->_json->{$property});
         }
 
         return null;
