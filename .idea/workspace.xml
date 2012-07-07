@@ -2,11 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f110c4b-add4-4e64-92bb-01ea9e20e42a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jenkins-dashboard.iml" afterPath="$PROJECT_DIR$/.idea/jenkins-dashboard.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/bootstrap/img/glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/examples/bootstrap/img/glyphicons-halflings-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/bootstrap/img/glyphicons-halflings.png" afterPath="$PROJECT_DIR$/examples/bootstrap/img/glyphicons-halflings.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/bootstrap/css/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/examples/bootstrap/css/bootstrap-responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/bootstrap/css/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/examples/bootstrap/css/bootstrap-responsive.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/examples/bootstrap/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/examples/bootstrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/examples/bootstrap/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/examples/bootstrap/js/bootstrap.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/index.php" afterPath="$PROJECT_DIR$/examples/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Emagister/Jenkins/Author.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Author.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Emagister/Jenkins/Build.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Build.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Emagister/Jenkins/Change.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Change.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Emagister/Jenkins/ChangeSet.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/ChangeSet.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Emagister/Jenkins/Dashboard.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Dashboard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Emagister/Jenkins/Exception.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Emagister/Jenkins/Exception/SourceNotAvailableException.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Exception/SourceNotAvailableException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Emagister/Jenkins/Job.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Job.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Emagister/Jenkins/Object.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Object.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Emagister/Jenkins/Property.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Property.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Emagister/Jenkins/Revision.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Revision.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Emagister/Jenkins/Source.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/Source.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Emagister/Jenkins/_autoload.php" afterPath="$PROJECT_DIR$/library/Emagister/Jenkins/_autoload.php" />
     </list>
     <ignored path="jenkins-dashboard.iws" />
     <ignored path=".idea/workspace.xml" />
