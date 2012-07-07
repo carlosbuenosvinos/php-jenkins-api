@@ -14,11 +14,18 @@ At this time, it has support for the following:
   - Authors
   - Properties
 
-Usage
-=====
-Usage is fairly straightforward:
+Requiring in another project
+============================
+Using composer:
 
-    include '/path/to/library/Emagister/Jenkins/_autoload.php';
+```
+    "require": {
+        "emagister/jenkins": "dev-master"
+    }
+```
+
+```php
+<?php
     use Emagister\Jenkins\Dashboard;
     use Emagister\Jenkins\Source;
 
@@ -28,6 +35,25 @@ Usage is fairly straightforward:
     // ...
 
     print_r($dashboard->getJobs());
+```
+
+
+Usage
+=====
+Usage is fairly straightforward,
+
+```php
+<?php
+    use Emagister\Jenkins\Dashboard;
+    use Emagister\Jenkins\Source;
+
+    $dashboard = new Dashboard();
+    $dashboard->addSource(new Source('http://ci.jenkins-ci.org/view/All/api/json/?depth=2'));
+    // Add as many sources as you want
+    // ...
+
+    print_r($dashboard->getJobs());
+```
 
 Autoloading
 ===========
