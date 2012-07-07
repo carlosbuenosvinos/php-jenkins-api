@@ -44,7 +44,8 @@
         Author::setDomain('emagister.com');
 
         $dashboard = new Dashboard();
-        $dashboard->addSource(new Source('http://jenkins.php-devel.corp.emagister.com/jenkins/view/All/api/json/?depth=2'));
+        $dashboard->addSource(new Source('http://ci.jenkins-ci.org/view/All/api/json/?depth=2'));
+        // $dashboard->addSource(new Source('http://jenkins.php-devel.corp.emagister.com/jenkins/view/All/api/json/?depth=2'));
         $jobs = $dashboard->getJobs();
         usort($jobs, "Emagister\\Jenkins\\Job::sort");
 
