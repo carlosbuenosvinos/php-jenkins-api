@@ -5,6 +5,18 @@ use Emagister\Jenkins\Object;
 
 class Author extends Object
 {
+    protected static $domain = null;
+
+    public static function setDomain($domain)
+    {
+        static::$domain = $domain;
+    }
+
+    public static function getDomain()
+    {
+        return static::$domain;
+    }
+
     public function getName()
     {
         return $this->_json->fullName;
@@ -12,7 +24,7 @@ class Author extends Object
 
     public function getAddress()
     {
-        return basename($this->_json->absoluteUrl) . '@emagister.com';
+        return basename($this->_json->absoluteUrl) . '@' . static::getDomain();
     }
 
     public function getGravatar()

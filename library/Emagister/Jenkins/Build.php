@@ -16,6 +16,30 @@ class Build extends Object
         return new ChangeSet($this->_json->changeSet);
     }
 
+    public function getDuration()
+    {
+        return $this->_json->duration;
+    }
+
+    public function getEstimatedDuration()
+    {
+        return $this->_json->estimatedDuration;
+    }
+
+    public function getProgress()
+    {
+        if ($this->getDuration() <= 0) {
+            return 100;
+        }
+
+        return min(100, number_format($this->estimatedDuration() / $this->getDuration()) * 100);
+    }
+
+    public function isBuilding()
+    {
+        return $this->_json->building == 'true';
+    }
+
     public function getAuthors()
     {
         $changeSet = $this->getChangeSet();

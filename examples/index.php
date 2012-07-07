@@ -38,10 +38,13 @@
         use Emagister\Jenkins\Dashboard;
         use Emagister\Jenkins\Source;
         use Emagister\Jenkins\Job;
+        use Emagister\Jenkins\Author;
+
+        // Add domain to users (comitters)
+        Author::setDomain('emagister.com');
 
         $dashboard = new Dashboard();
         $dashboard->addSource(new Source('http://jenkins.php-devel.corp.emagister.com/jenkins/view/All/api/json/?depth=2'));
-        // $dashboard->addSource(new Source('http://ci.emagister.es:8080/jenkins/view/All/api/json/?depth=3'));
         $jobs = $dashboard->getJobs();
         usort($jobs, "Emagister\\Jenkins\\Job::sort");
 
@@ -64,7 +67,7 @@
 
                         <?php if ($job->isInProgress()) { ?>
                         <div style="margin-bottom: 5px;" class="progress progress-<?php echo $job->getBootstrapProgressBarStatus() ?> progress-striped active">
-                            <div class="bar" style="width: 100%;"></div>
+                            <div class="bar" style="width: <?php echo $lastBuild->getProgress() ?>%;"></div>
                         </div>
                         <?php } ?>
 
@@ -102,24 +105,5 @@
     ?>
     </div> <!-- /row -->
 </div> <!-- /container -->
-
-<!-- Le javascript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<!--
-<script src="bootstrap/js/jquery.js"></script>
-<script src="bootstrap/js/bootstrap-transition.js"></script>
-<script src="bootstrap/js/bootstrap-alert.js"></script>
-<script src="bootstrap/js/bootstrap-modal.js"></script>
-<script src="bootstrap/js/bootstrap-dropdown.js"></script>
-<script src="bootstrap/js/bootstrap-scrollspy.js"></script>
-<script src="bootstrap/js/bootstrap-tab.js"></script>
-<script src="bootstrap/js/bootstrap-tooltip.js"></script>
-<script src="bootstrap/js/bootstrap-popover.js"></script>
-<script src="bootstrap/js/bootstrap-button.js"></script>
-<script src="bootstrap/js/bootstrap-collapse.js"></script>
-<script src="bootstrap/js/bootstrap-carousel.js"></script>
-<script src="bootstrap/js/bootstrap-typeahead.js"></script>
--->
 </body>
 </html>
