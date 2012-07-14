@@ -1,7 +1,7 @@
 <?php
-namespace Emagister\Jenkins;
+namespace CarlosIO\Jenkins;
 
-use Emagister\Jenkins\Object;
+use CarlosIO\Jenkins\Object;
 
 class Author extends Object
 {

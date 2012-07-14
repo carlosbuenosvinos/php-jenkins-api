@@ -1,9 +1,9 @@
 {
-    "name": "emagister/jenkins",
+    "name": "carlosio/jenkins",
     "type": "library",
     "description": "Jenkins API",
     "keywords": ["jenkins", "api"],
-    "homepage": "https://github.com/Emagister/php-jenkins-api",
+    "homepage": "https://github.com/carlosbuenosvinos/php-jenkins-api",
     "license": "MIT",
     "authors": [
         {
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Emagister": "src"
+            "CarlosIO": "src"
         }
     }
 }

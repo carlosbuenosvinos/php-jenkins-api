@@ -1,8 +1,8 @@
 <?php
-namespace Emagister\Jenkins;
+namespace CarlosIO\Jenkins;
 
-use Emagister\Jenkins\Object;
-use Emagister\Jenkins\Build;
+use CarlosIO\Jenkins\Object;
+use CarlosIO\Jenkins\Build;
 
 class Job extends Object
 {

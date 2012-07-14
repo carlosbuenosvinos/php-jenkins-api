@@ -1,6 +1,6 @@
-Emagister\Jenkins
+CarlosIO\Jenkins
 =================
-Emagister\Jenkins is a Jenkins API written in PHP
+CarlosIO\Jenkins is a Jenkins API written in PHP
 for PHP 5.3+. It has been born for Dashboard
 and extreme feedback purposes.
 
@@ -20,7 +20,7 @@ Using composer:
 
 ```
     "require": {
-        "emagister/jenkins": "dev-master"
+        "carlosio/jenkins": "dev-master"
     }
 ```
 
@@ -32,8 +32,8 @@ Usage is fairly straightforward,
 <?php
     require_once __DIR__ . '/../vendor/autoload.php';
 
-    use Emagister\Jenkins\Dashboard;
-    use Emagister\Jenkins\Source;
+    use CarlosIO\Jenkins\Dashboard;
+    use CarlosIO\Jenkins\Source;
 
     $dashboard = new Dashboard();
     $dashboard->addSource(new Source('http://ci.jenkins-ci.org/view/All/api/json/?depth=2'));

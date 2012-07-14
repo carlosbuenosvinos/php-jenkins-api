@@ -1,9 +1,9 @@
 <?php
-namespace Emagister\Jenkins;
+namespace CarlosIO\Jenkins;
 
-use Emagister\Jenkins\Object;
-use Emagister\Jenkins\Change;
-use Emagister\Jenkins\Revision;
+use CarlosIO\Jenkins\Object;
+use CarlosIO\Jenkins\Change;
+use CarlosIO\Jenkins\Revision;
 
 class ChangeSet extends Object
 {

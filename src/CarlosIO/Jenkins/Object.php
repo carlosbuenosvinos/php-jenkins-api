@@ -1,5 +1,5 @@
 <?php
-namespace Emagister\Jenkins;
+namespace CarlosIO\Jenkins;
 
 class Object
 {
@@ -12,7 +12,7 @@ class Object
 
     protected function _getItem($propertyName, $object)
     {
-        $object = "Emagister\\Jenkins\\" . $object;
+        $object = "CarlosIO\\Jenkins\\" . $object;
         if (isset($this->_json->{$propertyName})) {
             return new $object($this->_json->{$propertyName});
         }

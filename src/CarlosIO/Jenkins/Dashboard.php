@@ -1,5 +1,5 @@
 <?php
-namespace Emagister\Jenkins;
+namespace CarlosIO\Jenkins;
 
 class Dashboard
 {

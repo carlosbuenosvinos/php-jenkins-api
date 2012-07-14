@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Emagister PHP Team Job Dashboard</title>
+    <title>CarlosIO Jenkins Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Carlos Buenosvinos (carlos@emagister.com)">
     <meta http-equiv="refresh" content="10">
@@ -36,10 +36,10 @@
     <?php
         require_once __DIR__ . '/../vendor/autoload.php';
 
-        use Emagister\Jenkins\Dashboard;
-        use Emagister\Jenkins\Source;
-        use Emagister\Jenkins\Job;
-        use Emagister\Jenkins\Author;
+        use CarlosIO\Jenkins\Dashboard;
+        use CarlosIO\Jenkins\Source;
+        use CarlosIO\Jenkins\Job;
+        use CarlosIO\Jenkins\Author;
 
         // Add domain to users (comitters)
         Author::setDomain('emagister.com');
@@ -48,7 +48,7 @@
         // $dashboard->addSource(new Source('http://ci.jenkins-ci.org/view/All/api/json/?depth=2'));
         $dashboard->addSource(new Source('http://jenkins.php-devel.corp.emagister.com/jenkins/view/All/api/json/?depth=2'));
         $jobs = $dashboard->getJobs();
-        usort($jobs, "Emagister\\Jenkins\\Job::sort");
+        usort($jobs, "CarlosIO\\Jenkins\\Job::sort");
 
         $cols = 3;
         $n = count($jobs);

@@ -1,8 +1,8 @@
 <?php
-namespace Emagister\Jenkins;
+namespace CarlosIO\Jenkins;
 
-use Emagister\Jenkins\Object;
-use Emagister\Jenkins\Author;
+use CarlosIO\Jenkins\Object;
+use CarlosIO\Jenkins\Author;
 
 class Change extends Object
 {

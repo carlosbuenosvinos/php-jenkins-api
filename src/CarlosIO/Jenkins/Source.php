@@ -1,8 +1,8 @@
 <?php
-namespace Emagister\Jenkins;
+namespace CarlosIO\Jenkins;
 
-use Emagister\Jenkins\Job;
-use Emagister\Jenkins\Exception\SourceNotAvailableException;
+use CarlosIO\Jenkins\Job;
+use CarlosIO\Jenkins\Exception\SourceNotAvailableException;
 
 class Source
 {

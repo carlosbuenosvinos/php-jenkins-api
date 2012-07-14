@@ -1,8 +1,8 @@
 <?php
-namespace Emagister\Jenkins;
+namespace CarlosIO\Jenkins;
 
-use Emagister\Jenkins\Object;
-use Emagister\Jenkins\ChangeSet;
+use CarlosIO\Jenkins\Object;
+use CarlosIO\Jenkins\ChangeSet;
 
 class Build extends Object
 {
