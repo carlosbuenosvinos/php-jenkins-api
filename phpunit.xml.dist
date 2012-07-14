@@ -2,14 +2,14 @@
 
 <phpunit bootstrap="tests/bootstrap.php" colors="true">
     <testsuites>
-        <testsuite name="Emagister/Jenkins Test Suite">
+        <testsuite name="CarlosIO/Jenkins Test Suite">
             <directory>tests/Jenkins/</directory>
         </testsuite>
     </testsuites>
 
     <filter>
         <whitelist>
-            <directory suffix=".php">src/Emagister/</directory>
+            <directory suffix=".php">src/CarlosIO/</directory>
         </whitelist>
     </filter>
 </phpunit>
