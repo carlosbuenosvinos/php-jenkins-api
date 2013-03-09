@@ -1,5 +1,8 @@
 CarlosIO\Jenkins
 =================
+
+[![Build Status](https://secure.travis-ci.org/carlosbuenosvinos/php-jenkins-api.png?branch=master)](http://travis-ci.org/carlosbuenosvinos/php-jenkins-api)
+
 CarlosIO\Jenkins is a Jenkins API written in PHP
 for PHP 5.3+. It has been born for Dashboard
 and extreme feedback purposes.
