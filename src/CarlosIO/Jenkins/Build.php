@@ -40,6 +40,16 @@ class Build extends Object
         return $this->_json->building == 'true';
     }
 
+    public function getUrl()
+    {
+        return $this->_json->url;
+    }
+
+    public function getArtifacts()
+    {
+        return $this->_json->artifacts;
+    }
+    
     public function getAuthors()
     {
         $changeSet = $this->getChangeSet();
