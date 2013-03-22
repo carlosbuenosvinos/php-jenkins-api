@@ -33,4 +33,9 @@ class Object
 
         return $items;
     }
+
+    public function toArray()
+    {
+        return (array)$this->_json;
+    }
 }
