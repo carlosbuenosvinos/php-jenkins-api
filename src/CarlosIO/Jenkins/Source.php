@@ -14,10 +14,13 @@ class Source
         $this->_url = $url;
 
         $json = @file_get_contents($url);
+	  if (!$json) {
+	     throw new SourceNotAvailableException(sprintf("Sources can not be downloaded from %s", $this->_url));
+	  }
+	  
         $this->_json = @json_decode($json);
-
         if (!$this->_json) {
-            throw new SourceNotAvailableException();
+            throw new SourceNotAvailableException(sprintf("Downloaded sources seems to be invalid JSON string."));
         }
     }
 
