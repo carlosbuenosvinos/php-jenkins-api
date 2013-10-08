@@ -27,6 +27,7 @@ class Object
             return $items;
         }
 
+	  $object = "CarlosIO\\Jenkins\\" . $object;
         foreach ($this->_json->{$propertyName} as $item) {
             $items[] = new $object($item);
         }
