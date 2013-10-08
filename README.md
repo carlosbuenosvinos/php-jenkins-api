@@ -45,3 +45,8 @@ Usage is fairly straightforward,
 
     print_r($dashboard->getJobs());
 ```
+
+If you need user authentication, you just have to set your source URL like
+```php
+$dashboard->addSource(new Source('http://user:password@ci.jenkins-ci.org/view/All/api/json/?depth=2'));
+```
