@@ -16,9 +16,19 @@ class Build extends Object
         return new ChangeSet($this->_json->changeSet);
     }
 
+    public function getResult()
+    {
+        return $this->_json->result;
+    }
+
     public function getDuration()
     {
         return $this->_json->duration;
+    }
+
+    public function getTimestamp()
+    {
+        return $this->_json->timestamp;
     }
 
     public function getEstimatedDuration()

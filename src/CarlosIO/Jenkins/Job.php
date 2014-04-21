@@ -10,6 +10,11 @@ class Job extends Object
     {
         return $this->_json->name;
     }
+    
+    public function getDisplayName()
+    {
+        return $this->_json->displayName;
+    }
 
     public function getDescription()
     {
