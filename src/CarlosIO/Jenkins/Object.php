@@ -37,6 +37,6 @@ class Object
 
     public function toArray()
     {
-        return (array)$this->_json;
+        return json_decode(json_encode($this->_json), true);
     }
 }
